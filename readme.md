@@ -1,9 +1,10 @@
 # Bookings and Reservations
 
-This is the repository for my project for this Udemy class: 
-https://www.udemy.com/course/building-modern-web-applications-with-go
+The repository for [Building Modern Web Applications with Go](https://www.udemy.com/course/building-modern-web-applications-with-go/?referralCode=0415FB906223F10C6800).
 
-- Built in Go version 1.17
-- Uses the [chi router](github.com/go-chi/chi/v5)
-- Uses [alex edwards SCS](github.com/alexedwards/scs/v2)
+
+
+- Built in Go version 1.15
+- Uses the [chi router](github.com/go-chi/chi)
+- Uses [alex edwards scs session management](github.com/alexedwards/scs)
 - Uses [nosurf](github.com/justinas/nosurf)
