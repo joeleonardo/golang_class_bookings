@@ -2,13 +2,14 @@ package main
 
 import (
 	"fmt"
-	"github.com/alexedwards/scs/v2"
-	"github.com/tsawler/bookings-app/pkg/config"
-	"github.com/tsawler/bookings-app/pkg/handlers"
-	"github.com/tsawler/bookings-app/pkg/render"
 	"log"
 	"net/http"
 	"time"
+
+	"github.com/alexedwards/scs/v2"
+	"github.com/joeleonardo/golang_class_bookings/internal/config"
+	"github.com/joeleonardo/golang_class_bookings/internal/handlers"
+	"github.com/joeleonardo/golang_class_bookings/internal/render"
 )
 
 const portNumber = ":8080"
