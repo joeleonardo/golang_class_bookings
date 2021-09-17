@@ -1,6 +1,7 @@
 package main
 
 import (
+	"encoding/gob"
 	"fmt"
 	"log"
 	"net/http"
@@ -9,6 +10,7 @@ import (
 	"github.com/alexedwards/scs/v2"
 	"github.com/joeleonardo/golang_class_bookings/internal/config"
 	"github.com/joeleonardo/golang_class_bookings/internal/handlers"
+	"github.com/joeleonardo/golang_class_bookings/internal/models"
 	"github.com/joeleonardo/golang_class_bookings/internal/render"
 )
 
@@ -19,6 +21,8 @@ var session *scs.SessionManager
 
 // main is the main function
 func main() {
+	gob.Register(models.Reservation{})
+
 	// change this to true when in production
 	app.InProduction = false
 
@@ -44,7 +48,7 @@ func main() {
 
 	render.NewTemplates(&app)
 
-	fmt.Println(fmt.Sprintf("Staring application on port %s", portNumber))
+	fmt.Printf("Staring application on port %s\n", portNumber)
 
 	srv := &http.Server{
 		Addr:    portNumber,
