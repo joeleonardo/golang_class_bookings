@@ -1,0 +1,22 @@
+mode: set
+github.com/joeleonardo/golang_class_bookings/internal/handlers/handlers.go:24.47,28.2 1 1
+github.com/joeleonardo/golang_class_bookings/internal/handlers/handlers.go:31.33,33.2 1 1
+github.com/joeleonardo/golang_class_bookings/internal/handlers/handlers.go:36.67,41.2 3 1
+github.com/joeleonardo/golang_class_bookings/internal/handlers/handlers.go:44.68,56.2 5 1
+github.com/joeleonardo/golang_class_bookings/internal/handlers/handlers.go:59.74,68.2 4 1
+github.com/joeleonardo/golang_class_bookings/internal/handlers/handlers.go:70.78,72.16 2 1
+github.com/joeleonardo/golang_class_bookings/internal/handlers/handlers.go:77.2,90.19 6 1
+github.com/joeleonardo/golang_class_bookings/internal/handlers/handlers.go:102.2,103.66 2 1
+github.com/joeleonardo/golang_class_bookings/internal/handlers/handlers.go:72.16,75.3 2 0
+github.com/joeleonardo/golang_class_bookings/internal/handlers/handlers.go:90.19,100.3 4 0
+github.com/joeleonardo/golang_class_bookings/internal/handlers/handlers.go:107.71,109.2 1 1
+github.com/joeleonardo/golang_class_bookings/internal/handlers/handlers.go:112.69,114.2 1 1
+github.com/joeleonardo/golang_class_bookings/internal/handlers/handlers.go:117.75,119.2 1 1
+github.com/joeleonardo/golang_class_bookings/internal/handlers/handlers.go:122.79,127.2 3 1
+github.com/joeleonardo/golang_class_bookings/internal/handlers/handlers.go:134.79,141.16 3 1
+github.com/joeleonardo/golang_class_bookings/internal/handlers/handlers.go:145.2,147.14 3 1
+github.com/joeleonardo/golang_class_bookings/internal/handlers/handlers.go:141.16,143.3 1 0
+github.com/joeleonardo/golang_class_bookings/internal/handlers/handlers.go:151.70,153.2 1 1
+github.com/joeleonardo/golang_class_bookings/internal/handlers/handlers.go:155.81,157.9 2 1
+github.com/joeleonardo/golang_class_bookings/internal/handlers/handlers.go:164.2,170.7 4 0
+github.com/joeleonardo/golang_class_bookings/internal/handlers/handlers.go:157.9,162.3 4 1
