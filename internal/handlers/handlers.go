@@ -7,10 +7,13 @@ import (
 	"net/http"
 
 	"github.com/joeleonardo/golang_class_bookings/internal/config"
+	"github.com/joeleonardo/golang_class_bookings/internal/driver"
 	"github.com/joeleonardo/golang_class_bookings/internal/forms"
 	"github.com/joeleonardo/golang_class_bookings/internal/helpers"
 	"github.com/joeleonardo/golang_class_bookings/internal/models"
 	"github.com/joeleonardo/golang_class_bookings/internal/render"
+	"github.com/joeleonardo/golang_class_bookings/internal/repository"
+	"github.com/joeleonardo/golang_class_bookings/internal/repository/dbrepo"
 )
 
 // Repo the repository used by the handlers
@@ -19,12 +22,14 @@ var Repo *Repository
 // Repository is the repository type
 type Repository struct {
 	App *config.AppConfig
+	DB  repository.DatabaseRepo
 }
 
 // NewRepo creates a new repository
-func NewRepo(a *config.AppConfig) *Repository {
+func NewRepo(a *config.AppConfig, db *driver.DB) *Repository {
 	return &Repository{
 		App: a,
+		DB:  dbrepo.NewPostgresRepo(&db.SQL, a),
 	}
 }
 
